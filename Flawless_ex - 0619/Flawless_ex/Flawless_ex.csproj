@@ -89,6 +89,12 @@
     <Compile Include="AddSubCategoryMenu.Designer.cs">
       <DependentUpon>AddSubCategoryMenu.cs</DependentUpon>
     </Compile>
+    <Compile Include="Client_search.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Client_search.Designer.cs">
+      <DependentUpon>Client_search.cs</DependentUpon>
+    </Compile>
     <Compile Include="CustomerHistory.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -222,6 +228,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="AddSubCategoryMenu.resx">
       <DependentUpon>AddSubCategoryMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Client_search.resx">
+      <DependentUpon>Client_search.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CustomerHistory.resx">
       <DependentUpon>CustomerHistory.cs</DependentUpon>

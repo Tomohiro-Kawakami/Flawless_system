@@ -3504,5 +3504,22 @@ namespace Flawless_ex
 
 
         #endregion
+
+ 
+
+        private void client_searchButton(object sender, EventArgs e)
+        {
+            Client_search client_Search = new Client_search(this);
+
+            this.Hide();
+            client_Search.Show();
+        }
+
+        private void client_Button_Click(object sender, EventArgs e)
+        {
+            Client_search client_Search = new Client_search(this);
+            this.Hide();
+            client_Search.Show();
+        }
     }
 }

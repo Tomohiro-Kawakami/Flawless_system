@@ -755,7 +755,7 @@
             this.addButton = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
-            this.button2 = new System.Windows.Forms.Button();
+            this.client_Button = new System.Windows.Forms.Button();
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.label20 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
@@ -843,7 +843,7 @@
             this.button10 = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.textBox369 = new System.Windows.Forms.TextBox();
-            this.button5 = new System.Windows.Forms.Button();
+            this.client_searchButton1 = new System.Windows.Forms.Button();
             this.textBox370 = new System.Windows.Forms.TextBox();
             this.label72 = new System.Windows.Forms.Label();
             this.label73 = new System.Windows.Forms.Label();
@@ -9242,7 +9242,7 @@
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.textBox2);
-            this.groupBox2.Controls.Add(this.button2);
+            this.groupBox2.Controls.Add(this.client_Button);
             this.groupBox2.Controls.Add(this.textBox7);
             this.groupBox2.Controls.Add(this.label20);
             this.groupBox2.Controls.Add(this.label15);
@@ -9271,16 +9271,17 @@
             this.textBox2.Size = new System.Drawing.Size(99, 31);
             this.textBox2.TabIndex = 23;
             // 
-            // button2
+            // client_Button
             // 
-            this.button2.AutoSize = true;
-            this.button2.Location = new System.Drawing.Point(7, 18);
-            this.button2.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(366, 92);
-            this.button2.TabIndex = 16;
-            this.button2.Text = "顧客選択";
-            this.button2.UseVisualStyleBackColor = true;
+            this.client_Button.AutoSize = true;
+            this.client_Button.Location = new System.Drawing.Point(7, 18);
+            this.client_Button.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
+            this.client_Button.Name = "client_Button";
+            this.client_Button.Size = new System.Drawing.Size(366, 92);
+            this.client_Button.TabIndex = 16;
+            this.client_Button.Text = "顧客選択";
+            this.client_Button.UseVisualStyleBackColor = true;
+            this.client_Button.Click += new System.EventHandler(this.client_Button_Click);
             // 
             // textBox7
             // 
@@ -10190,7 +10191,7 @@
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.textBox369);
-            this.groupBox3.Controls.Add(this.button5);
+            this.groupBox3.Controls.Add(this.client_searchButton1);
             this.groupBox3.Controls.Add(this.textBox370);
             this.groupBox3.Controls.Add(this.label72);
             this.groupBox3.Controls.Add(this.label73);
@@ -10219,16 +10220,16 @@
             this.textBox369.Size = new System.Drawing.Size(99, 31);
             this.textBox369.TabIndex = 23;
             // 
-            // button5
+            // client_searchButton1
             // 
-            this.button5.AutoSize = true;
-            this.button5.Location = new System.Drawing.Point(7, 18);
-            this.button5.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(366, 92);
-            this.button5.TabIndex = 16;
-            this.button5.Text = "顧客選択";
-            this.button5.UseVisualStyleBackColor = true;
+            this.client_searchButton1.AutoSize = true;
+            this.client_searchButton1.Location = new System.Drawing.Point(7, 18);
+            this.client_searchButton1.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
+            this.client_searchButton1.Name = "client_searchButton1";
+            this.client_searchButton1.Size = new System.Drawing.Size(366, 92);
+            this.client_searchButton1.TabIndex = 16;
+            this.client_searchButton1.Text = "顧客選択";
+            this.client_searchButton1.UseVisualStyleBackColor = true;
             // 
             // textBox370
             // 
@@ -18248,7 +18249,7 @@
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button client_Button;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Button returnButton;
         private System.Windows.Forms.Button previewButton;
@@ -18980,7 +18981,7 @@
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.TextBox textBox369;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button client_searchButton1;
         private System.Windows.Forms.TextBox textBox370;
         private System.Windows.Forms.Label label72;
         private System.Windows.Forms.Label label73;
