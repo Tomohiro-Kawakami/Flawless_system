@@ -95,6 +95,12 @@
     <Compile Include="CustomerHistory.Designer.cs">
       <DependentUpon>CustomerHistory.cs</DependentUpon>
     </Compile>
+    <Compile Include="Data_search_results.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Data_search_results.Designer.cs">
+      <DependentUpon>Data_search_results.cs</DependentUpon>
+    </Compile>
     <Compile Include="Invoice.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -225,6 +231,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CustomerHistory.resx">
       <DependentUpon>CustomerHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Data_search_results.resx">
+      <DependentUpon>Data_search_results.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Invoice.resx">
       <DependentUpon>Invoice.cs</DependentUpon>

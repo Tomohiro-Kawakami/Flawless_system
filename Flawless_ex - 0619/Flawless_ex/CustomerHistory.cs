@@ -26,5 +26,13 @@ namespace Flawless_ex
             this.Close();
             mainMenu.Show();
         }
+
+        private void data_searchButton_Click(object sender, EventArgs e)//検索ボタン
+        {
+            Data_search_results data_Search = new Data_search_results(this);
+
+            this.Hide();
+            data_Search.Show();
+        }
     }
 }
