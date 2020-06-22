@@ -32,6 +32,13 @@
             this.label2 = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.SettlementDayBox = new System.Windows.Forms.TabPage();
+            this.button13 = new System.Windows.Forms.Button();
+            this.textBox302 = new System.Windows.Forms.TextBox();
+            this.button12 = new System.Windows.Forms.Button();
+            this.label10 = new System.Windows.Forms.Label();
+            this.button11 = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
             this.tabControl2 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
@@ -760,14 +767,18 @@
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.label18 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.dateTimePicker4 = new System.Windows.Forms.DateTimePicker();
+            this.button8 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.sealCertificationTextBox = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.residenceCardTextBox = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.taxCertificateTexBox = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.articlesTextBox = new System.Windows.Forms.TextBox();
@@ -783,6 +794,10 @@
             this.documentNumberTextBox = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.comboBox10 = new System.Windows.Forms.ComboBox();
+            this.dateTimePicker3 = new System.Windows.Forms.DateTimePicker();
+            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.label92 = new System.Windows.Forms.Label();
             this.label89 = new System.Windows.Forms.Label();
             this.comboBox101 = new System.Windows.Forms.ComboBox();
@@ -808,11 +823,21 @@
             this.add2 = new System.Windows.Forms.Button();
             this.calc2Button2 = new System.Windows.Forms.Button();
             this.tableLayoutPanel14 = new System.Windows.Forms.TableLayoutPanel();
+            this.flowLayoutPanel697 = new System.Windows.Forms.FlowLayoutPanel();
+            this.label78 = new System.Windows.Forms.Label();
+            this.flowLayoutPanel696 = new System.Windows.Forms.FlowLayoutPanel();
+            this.label80 = new System.Windows.Forms.Label();
+            this.flowLayoutPanel695 = new System.Windows.Forms.FlowLayoutPanel();
+            this.label79 = new System.Windows.Forms.Label();
+            this.flowLayoutPanel694 = new System.Windows.Forms.FlowLayoutPanel();
+            this.textBox304 = new System.Windows.Forms.TextBox();
+            this.flowLayoutPanel691 = new System.Windows.Forms.FlowLayoutPanel();
+            this.flowLayoutPanel693 = new System.Windows.Forms.FlowLayoutPanel();
+            this.subTotal2 = new System.Windows.Forms.TextBox();
             this.flowLayoutPanel690 = new System.Windows.Forms.FlowLayoutPanel();
             this.sumTextBox2 = new System.Windows.Forms.TextBox();
             this.flowLayoutPanel692 = new System.Windows.Forms.FlowLayoutPanel();
             this.taxAmount2 = new System.Windows.Forms.TextBox();
-            this.flowLayoutPanel693 = new System.Windows.Forms.FlowLayoutPanel();
             this.return2 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
@@ -1526,32 +1551,11 @@
             this.flowLayoutPanel587 = new System.Windows.Forms.FlowLayoutPanel();
             this.textBox301 = new System.Windows.Forms.TextBox();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePicker3 = new System.Windows.Forms.DateTimePicker();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.dateTimePicker4 = new System.Windows.Forms.DateTimePicker();
-            this.comboBox10 = new System.Windows.Forms.ComboBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button11 = new System.Windows.Forms.Button();
-            this.label10 = new System.Windows.Forms.Label();
-            this.button12 = new System.Windows.Forms.Button();
-            this.textBox302 = new System.Windows.Forms.TextBox();
-            this.button13 = new System.Windows.Forms.Button();
-            this.subTotal2 = new System.Windows.Forms.TextBox();
-            this.textBox303 = new System.Windows.Forms.TextBox();
-            this.flowLayoutPanel691 = new System.Windows.Forms.FlowLayoutPanel();
-            this.flowLayoutPanel694 = new System.Windows.Forms.FlowLayoutPanel();
-            this.textBox304 = new System.Windows.Forms.TextBox();
-            this.flowLayoutPanel695 = new System.Windows.Forms.FlowLayoutPanel();
-            this.label79 = new System.Windows.Forms.Label();
-            this.flowLayoutPanel696 = new System.Windows.Forms.FlowLayoutPanel();
-            this.label80 = new System.Windows.Forms.Label();
-            this.flowLayoutPanel697 = new System.Windows.Forms.FlowLayoutPanel();
-            this.label78 = new System.Windows.Forms.Label();
+            this.flowLayoutPanel689 = new System.Windows.Forms.FlowLayoutPanel();
+            this.label93 = new System.Windows.Forms.Label();
+            this.flowLayoutPanel698 = new System.Windows.Forms.FlowLayoutPanel();
+            this.label94 = new System.Windows.Forms.Label();
+            this.comboBox11 = new System.Windows.Forms.ComboBox();
             this.tabControl1.SuspendLayout();
             this.SettlementDayBox.SuspendLayout();
             this.tabControl2.SuspendLayout();
@@ -1919,9 +1923,14 @@
             this.groupBox1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.tableLayoutPanel14.SuspendLayout();
+            this.flowLayoutPanel697.SuspendLayout();
+            this.flowLayoutPanel696.SuspendLayout();
+            this.flowLayoutPanel695.SuspendLayout();
+            this.flowLayoutPanel694.SuspendLayout();
+            this.flowLayoutPanel691.SuspendLayout();
+            this.flowLayoutPanel693.SuspendLayout();
             this.flowLayoutPanel690.SuspendLayout();
             this.flowLayoutPanel692.SuspendLayout();
-            this.flowLayoutPanel693.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.tableLayoutPanel13.SuspendLayout();
             this.flowLayoutPanel588.SuspendLayout();
@@ -2277,11 +2286,8 @@
             this.flowLayoutPanel585.SuspendLayout();
             this.flowLayoutPanel586.SuspendLayout();
             this.flowLayoutPanel587.SuspendLayout();
-            this.flowLayoutPanel691.SuspendLayout();
-            this.flowLayoutPanel694.SuspendLayout();
-            this.flowLayoutPanel695.SuspendLayout();
-            this.flowLayoutPanel696.SuspendLayout();
-            this.flowLayoutPanel697.SuspendLayout();
+            this.flowLayoutPanel689.SuspendLayout();
+            this.flowLayoutPanel698.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -2353,6 +2359,67 @@
             this.SettlementDayBox.Size = new System.Drawing.Size(3260, 1557);
             this.SettlementDayBox.TabIndex = 0;
             this.SettlementDayBox.Text = "計算書";
+            // 
+            // button13
+            // 
+            this.button13.Location = new System.Drawing.Point(2675, 1278);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(182, 52);
+            this.button13.TabIndex = 47;
+            this.button13.Text = "成績入力画面";
+            this.button13.UseVisualStyleBackColor = true;
+            // 
+            // textBox302
+            // 
+            this.textBox302.Location = new System.Drawing.Point(1035, 1340);
+            this.textBox302.Name = "textBox302";
+            this.textBox302.Size = new System.Drawing.Size(148, 31);
+            this.textBox302.TabIndex = 46;
+            // 
+            // button12
+            // 
+            this.button12.Location = new System.Drawing.Point(1216, 1331);
+            this.button12.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(153, 40);
+            this.button12.TabIndex = 45;
+            this.button12.Text = "ファイルを選択";
+            this.button12.UseVisualStyleBackColor = true;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(1031, 1292);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(154, 24);
+            this.label10.TabIndex = 44;
+            this.label10.Text = "古物商許可証";
+            // 
+            // button11
+            // 
+            this.button11.Location = new System.Drawing.Point(1216, 1211);
+            this.button11.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(153, 40);
+            this.button11.TabIndex = 40;
+            this.button11.Text = "ファイルを選択";
+            this.button11.UseVisualStyleBackColor = true;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(1035, 1220);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(151, 31);
+            this.textBox1.TabIndex = 43;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(1031, 1193);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(130, 24);
+            this.label9.TabIndex = 42;
+            this.label9.Text = "登記簿党本";
             // 
             // button3
             // 
@@ -9321,17 +9388,6 @@
             this.label17.TabIndex = 19;
             this.label17.Text = "店舗名";
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(562, 269);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(154, 40);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "表示";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.GreenYellow;
@@ -9357,6 +9413,43 @@
             this.groupBox1.Size = new System.Drawing.Size(862, 364);
             this.groupBox1.TabIndex = 15;
             this.groupBox1.TabStop = false;
+            // 
+            // dateTimePicker4
+            // 
+            this.dateTimePicker4.Location = new System.Drawing.Point(417, 146);
+            this.dateTimePicker4.Name = "dateTimePicker4";
+            this.dateTimePicker4.Size = new System.Drawing.Size(200, 31);
+            this.dateTimePicker4.TabIndex = 39;
+            // 
+            // button8
+            // 
+            this.button8.Location = new System.Drawing.Point(584, 52);
+            this.button8.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(153, 40);
+            this.button8.TabIndex = 38;
+            this.button8.Text = "ファイルを選択";
+            this.button8.UseVisualStyleBackColor = true;
+            // 
+            // button7
+            // 
+            this.button7.Location = new System.Drawing.Point(179, 269);
+            this.button7.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(153, 40);
+            this.button7.TabIndex = 37;
+            this.button7.Text = "ファイルを選択";
+            this.button7.UseVisualStyleBackColor = true;
+            // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(179, 158);
+            this.button6.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(153, 40);
+            this.button6.TabIndex = 36;
+            this.button6.Text = "ファイルを選択";
+            this.button6.UseVisualStyleBackColor = true;
             // 
             // button4
             // 
@@ -9414,6 +9507,17 @@
             this.label12.Size = new System.Drawing.Size(112, 24);
             this.label12.TabIndex = 16;
             this.label12.Text = "在留カード";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(562, 269);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(154, 40);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "表示";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // taxCertificateTexBox
             // 
@@ -9605,6 +9709,40 @@
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "納品書";
             this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // comboBox10
+            // 
+            this.comboBox10.FormattingEnabled = true;
+            this.comboBox10.Items.AddRange(new object[] {
+            "現金",
+            "振込",
+            "書留",
+            "掛け"});
+            this.comboBox10.Location = new System.Drawing.Point(715, 1023);
+            this.comboBox10.Name = "comboBox10";
+            this.comboBox10.Size = new System.Drawing.Size(206, 32);
+            this.comboBox10.TabIndex = 83;
+            // 
+            // dateTimePicker3
+            // 
+            this.dateTimePicker3.Location = new System.Drawing.Point(1226, 1097);
+            this.dateTimePicker3.Name = "dateTimePicker3";
+            this.dateTimePicker3.Size = new System.Drawing.Size(200, 31);
+            this.dateTimePicker3.TabIndex = 82;
+            // 
+            // dateTimePicker2
+            // 
+            this.dateTimePicker2.Location = new System.Drawing.Point(1226, 1026);
+            this.dateTimePicker2.Name = "dateTimePicker2";
+            this.dateTimePicker2.Size = new System.Drawing.Size(200, 31);
+            this.dateTimePicker2.TabIndex = 81;
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(1226, 940);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(200, 31);
+            this.dateTimePicker1.TabIndex = 80;
             // 
             // label92
             // 
@@ -9865,8 +10003,9 @@
             // 
             this.tableLayoutPanel14.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
             this.tableLayoutPanel14.ColumnCount = 2;
-            this.tableLayoutPanel14.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel14.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel14.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 55F));
+            this.tableLayoutPanel14.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 45F));
+            this.tableLayoutPanel14.Controls.Add(this.flowLayoutPanel689, 0, 3);
             this.tableLayoutPanel14.Controls.Add(this.flowLayoutPanel697, 0, 2);
             this.tableLayoutPanel14.Controls.Add(this.flowLayoutPanel696, 0, 1);
             this.tableLayoutPanel14.Controls.Add(this.flowLayoutPanel695, 0, 0);
@@ -9875,7 +10014,8 @@
             this.tableLayoutPanel14.Controls.Add(this.flowLayoutPanel693, 1, 0);
             this.tableLayoutPanel14.Controls.Add(this.flowLayoutPanel690, 1, 4);
             this.tableLayoutPanel14.Controls.Add(this.flowLayoutPanel692, 1, 3);
-            this.tableLayoutPanel14.Location = new System.Drawing.Point(1660, 1012);
+            this.tableLayoutPanel14.Controls.Add(this.flowLayoutPanel698, 0, 4);
+            this.tableLayoutPanel14.Location = new System.Drawing.Point(1661, 1010);
             this.tableLayoutPanel14.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.tableLayoutPanel14.Name = "tableLayoutPanel14";
             this.tableLayoutPanel14.RowCount = 5;
@@ -9884,13 +10024,106 @@
             this.tableLayoutPanel14.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel14.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel14.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel14.Size = new System.Drawing.Size(286, 275);
+            this.tableLayoutPanel14.Size = new System.Drawing.Size(320, 275);
             this.tableLayoutPanel14.TabIndex = 47;
+            // 
+            // flowLayoutPanel697
+            // 
+            this.flowLayoutPanel697.Controls.Add(this.label78);
+            this.flowLayoutPanel697.Location = new System.Drawing.Point(4, 112);
+            this.flowLayoutPanel697.Name = "flowLayoutPanel697";
+            this.flowLayoutPanel697.Size = new System.Drawing.Size(135, 47);
+            this.flowLayoutPanel697.TabIndex = 84;
+            // 
+            // label78
+            // 
+            this.label78.Location = new System.Drawing.Point(3, 0);
+            this.label78.Name = "label78";
+            this.label78.Size = new System.Drawing.Size(150, 47);
+            this.label78.TabIndex = 84;
+            this.label78.Text = "消費税率";
+            this.label78.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // flowLayoutPanel696
+            // 
+            this.flowLayoutPanel696.Controls.Add(this.label80);
+            this.flowLayoutPanel696.Location = new System.Drawing.Point(4, 58);
+            this.flowLayoutPanel696.Name = "flowLayoutPanel696";
+            this.flowLayoutPanel696.Size = new System.Drawing.Size(168, 47);
+            this.flowLayoutPanel696.TabIndex = 84;
+            // 
+            // label80
+            // 
+            this.label80.Location = new System.Drawing.Point(3, 0);
+            this.label80.Name = "label80";
+            this.label80.Size = new System.Drawing.Size(165, 51);
+            this.label80.TabIndex = 84;
+            this.label80.Text = "消費税区分";
+            this.label80.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // flowLayoutPanel695
+            // 
+            this.flowLayoutPanel695.Controls.Add(this.label79);
+            this.flowLayoutPanel695.Location = new System.Drawing.Point(4, 4);
+            this.flowLayoutPanel695.Name = "flowLayoutPanel695";
+            this.flowLayoutPanel695.Size = new System.Drawing.Size(135, 47);
+            this.flowLayoutPanel695.TabIndex = 84;
+            // 
+            // label79
+            // 
+            this.label79.Location = new System.Drawing.Point(3, 0);
+            this.label79.Name = "label79";
+            this.label79.Size = new System.Drawing.Size(150, 41);
+            this.label79.TabIndex = 84;
+            this.label79.Text = "小計";
+            this.label79.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // flowLayoutPanel694
+            // 
+            this.flowLayoutPanel694.Controls.Add(this.textBox304);
+            this.flowLayoutPanel694.Location = new System.Drawing.Point(179, 112);
+            this.flowLayoutPanel694.Name = "flowLayoutPanel694";
+            this.flowLayoutPanel694.Size = new System.Drawing.Size(136, 47);
+            this.flowLayoutPanel694.TabIndex = 84;
+            // 
+            // textBox304
+            // 
+            this.textBox304.Location = new System.Drawing.Point(3, 3);
+            this.textBox304.Name = "textBox304";
+            this.textBox304.ReadOnly = true;
+            this.textBox304.Size = new System.Drawing.Size(132, 31);
+            this.textBox304.TabIndex = 84;
+            // 
+            // flowLayoutPanel691
+            // 
+            this.flowLayoutPanel691.Controls.Add(this.comboBox11);
+            this.flowLayoutPanel691.Location = new System.Drawing.Point(179, 58);
+            this.flowLayoutPanel691.Name = "flowLayoutPanel691";
+            this.flowLayoutPanel691.Size = new System.Drawing.Size(136, 47);
+            this.flowLayoutPanel691.TabIndex = 85;
+            // 
+            // flowLayoutPanel693
+            // 
+            this.flowLayoutPanel693.Controls.Add(this.subTotal2);
+            this.flowLayoutPanel693.Location = new System.Drawing.Point(178, 5);
+            this.flowLayoutPanel693.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
+            this.flowLayoutPanel693.Name = "flowLayoutPanel693";
+            this.flowLayoutPanel693.Size = new System.Drawing.Size(136, 40);
+            this.flowLayoutPanel693.TabIndex = 38;
+            // 
+            // subTotal2
+            // 
+            this.subTotal2.Location = new System.Drawing.Point(2, 4);
+            this.subTotal2.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
+            this.subTotal2.Name = "subTotal2";
+            this.subTotal2.ReadOnly = true;
+            this.subTotal2.Size = new System.Drawing.Size(134, 31);
+            this.subTotal2.TabIndex = 37;
             // 
             // flowLayoutPanel690
             // 
             this.flowLayoutPanel690.Controls.Add(this.sumTextBox2);
-            this.flowLayoutPanel690.Location = new System.Drawing.Point(145, 221);
+            this.flowLayoutPanel690.Location = new System.Drawing.Point(178, 221);
             this.flowLayoutPanel690.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.flowLayoutPanel690.Name = "flowLayoutPanel690";
             this.flowLayoutPanel690.Size = new System.Drawing.Size(137, 44);
@@ -9908,7 +10141,7 @@
             // flowLayoutPanel692
             // 
             this.flowLayoutPanel692.Controls.Add(this.taxAmount2);
-            this.flowLayoutPanel692.Location = new System.Drawing.Point(145, 167);
+            this.flowLayoutPanel692.Location = new System.Drawing.Point(178, 167);
             this.flowLayoutPanel692.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.flowLayoutPanel692.Name = "flowLayoutPanel692";
             this.flowLayoutPanel692.Size = new System.Drawing.Size(137, 45);
@@ -9922,15 +10155,6 @@
             this.taxAmount2.ReadOnly = true;
             this.taxAmount2.Size = new System.Drawing.Size(134, 31);
             this.taxAmount2.TabIndex = 37;
-            // 
-            // flowLayoutPanel693
-            // 
-            this.flowLayoutPanel693.Controls.Add(this.subTotal2);
-            this.flowLayoutPanel693.Location = new System.Drawing.Point(145, 5);
-            this.flowLayoutPanel693.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
-            this.flowLayoutPanel693.Name = "flowLayoutPanel693";
-            this.flowLayoutPanel693.Size = new System.Drawing.Size(136, 40);
-            this.flowLayoutPanel693.TabIndex = 38;
             // 
             // return2
             // 
@@ -16734,226 +16958,50 @@
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
             // 
-            // dateTimePicker1
+            // flowLayoutPanel689
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(1226, 940);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 31);
-            this.dateTimePicker1.TabIndex = 80;
+            this.flowLayoutPanel689.Controls.Add(this.label93);
+            this.flowLayoutPanel689.Location = new System.Drawing.Point(4, 166);
+            this.flowLayoutPanel689.Name = "flowLayoutPanel689";
+            this.flowLayoutPanel689.Size = new System.Drawing.Size(168, 47);
+            this.flowLayoutPanel689.TabIndex = 84;
             // 
-            // dateTimePicker2
+            // label93
             // 
-            this.dateTimePicker2.Location = new System.Drawing.Point(1226, 1026);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(200, 31);
-            this.dateTimePicker2.TabIndex = 81;
+            this.label93.Location = new System.Drawing.Point(3, 0);
+            this.label93.Name = "label93";
+            this.label93.Size = new System.Drawing.Size(130, 46);
+            this.label93.TabIndex = 0;
+            this.label93.Text = "消費税額";
+            this.label93.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // dateTimePicker3
+            // flowLayoutPanel698
             // 
-            this.dateTimePicker3.Location = new System.Drawing.Point(1226, 1097);
-            this.dateTimePicker3.Name = "dateTimePicker3";
-            this.dateTimePicker3.Size = new System.Drawing.Size(200, 31);
-            this.dateTimePicker3.TabIndex = 82;
+            this.flowLayoutPanel698.Controls.Add(this.label94);
+            this.flowLayoutPanel698.Location = new System.Drawing.Point(4, 220);
+            this.flowLayoutPanel698.Name = "flowLayoutPanel698";
+            this.flowLayoutPanel698.Size = new System.Drawing.Size(168, 51);
+            this.flowLayoutPanel698.TabIndex = 86;
             // 
-            // button6
+            // label94
             // 
-            this.button6.Location = new System.Drawing.Point(179, 158);
-            this.button6.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(153, 40);
-            this.button6.TabIndex = 36;
-            this.button6.Text = "ファイルを選択";
-            this.button6.UseVisualStyleBackColor = true;
+            this.label94.Location = new System.Drawing.Point(3, 0);
+            this.label94.Name = "label94";
+            this.label94.Size = new System.Drawing.Size(130, 51);
+            this.label94.TabIndex = 0;
+            this.label94.Text = "合計金額";
+            this.label94.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // button7
+            // comboBox11
             // 
-            this.button7.Location = new System.Drawing.Point(179, 269);
-            this.button7.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(153, 40);
-            this.button7.TabIndex = 37;
-            this.button7.Text = "ファイルを選択";
-            this.button7.UseVisualStyleBackColor = true;
-            // 
-            // button8
-            // 
-            this.button8.Location = new System.Drawing.Point(584, 52);
-            this.button8.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(153, 40);
-            this.button8.TabIndex = 38;
-            this.button8.Text = "ファイルを選択";
-            this.button8.UseVisualStyleBackColor = true;
-            // 
-            // dateTimePicker4
-            // 
-            this.dateTimePicker4.Location = new System.Drawing.Point(417, 146);
-            this.dateTimePicker4.Name = "dateTimePicker4";
-            this.dateTimePicker4.Size = new System.Drawing.Size(200, 31);
-            this.dateTimePicker4.TabIndex = 39;
-            // 
-            // comboBox10
-            // 
-            this.comboBox10.FormattingEnabled = true;
-            this.comboBox10.Items.AddRange(new object[] {
-            "現金",
-            "振込",
-            "書留",
-            "掛け"});
-            this.comboBox10.Location = new System.Drawing.Point(715, 1023);
-            this.comboBox10.Name = "comboBox10";
-            this.comboBox10.Size = new System.Drawing.Size(206, 32);
-            this.comboBox10.TabIndex = 83;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(1031, 1193);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(130, 24);
-            this.label9.TabIndex = 42;
-            this.label9.Text = "登記簿党本";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(1035, 1220);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(151, 31);
-            this.textBox1.TabIndex = 43;
-            // 
-            // button11
-            // 
-            this.button11.Location = new System.Drawing.Point(1216, 1211);
-            this.button11.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(153, 40);
-            this.button11.TabIndex = 40;
-            this.button11.Text = "ファイルを選択";
-            this.button11.UseVisualStyleBackColor = true;
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(1031, 1292);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(154, 24);
-            this.label10.TabIndex = 44;
-            this.label10.Text = "古物商許可証";
-            // 
-            // button12
-            // 
-            this.button12.Location = new System.Drawing.Point(1216, 1331);
-            this.button12.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(153, 40);
-            this.button12.TabIndex = 45;
-            this.button12.Text = "ファイルを選択";
-            this.button12.UseVisualStyleBackColor = true;
-            // 
-            // textBox302
-            // 
-            this.textBox302.Location = new System.Drawing.Point(1035, 1340);
-            this.textBox302.Name = "textBox302";
-            this.textBox302.Size = new System.Drawing.Size(148, 31);
-            this.textBox302.TabIndex = 46;
-            // 
-            // button13
-            // 
-            this.button13.Location = new System.Drawing.Point(2675, 1278);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(182, 52);
-            this.button13.TabIndex = 47;
-            this.button13.Text = "成績入力画面";
-            this.button13.UseVisualStyleBackColor = true;
-            // 
-            // subTotal2
-            // 
-            this.subTotal2.Location = new System.Drawing.Point(2, 4);
-            this.subTotal2.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
-            this.subTotal2.Name = "subTotal2";
-            this.subTotal2.ReadOnly = true;
-            this.subTotal2.Size = new System.Drawing.Size(134, 31);
-            this.subTotal2.TabIndex = 37;
-            // 
-            // textBox303
-            // 
-            this.textBox303.Location = new System.Drawing.Point(3, 3);
-            this.textBox303.Name = "textBox303";
-            this.textBox303.Size = new System.Drawing.Size(132, 31);
-            this.textBox303.TabIndex = 84;
-            // 
-            // flowLayoutPanel691
-            // 
-            this.flowLayoutPanel691.Controls.Add(this.textBox303);
-            this.flowLayoutPanel691.Location = new System.Drawing.Point(146, 58);
-            this.flowLayoutPanel691.Name = "flowLayoutPanel691";
-            this.flowLayoutPanel691.Size = new System.Drawing.Size(136, 47);
-            this.flowLayoutPanel691.TabIndex = 85;
-            // 
-            // flowLayoutPanel694
-            // 
-            this.flowLayoutPanel694.Controls.Add(this.textBox304);
-            this.flowLayoutPanel694.Location = new System.Drawing.Point(146, 112);
-            this.flowLayoutPanel694.Name = "flowLayoutPanel694";
-            this.flowLayoutPanel694.Size = new System.Drawing.Size(136, 47);
-            this.flowLayoutPanel694.TabIndex = 84;
-            // 
-            // textBox304
-            // 
-            this.textBox304.Location = new System.Drawing.Point(3, 3);
-            this.textBox304.Name = "textBox304";
-            this.textBox304.Size = new System.Drawing.Size(132, 31);
-            this.textBox304.TabIndex = 84;
-            // 
-            // flowLayoutPanel695
-            // 
-            this.flowLayoutPanel695.Controls.Add(this.label79);
-            this.flowLayoutPanel695.Location = new System.Drawing.Point(4, 4);
-            this.flowLayoutPanel695.Name = "flowLayoutPanel695";
-            this.flowLayoutPanel695.Size = new System.Drawing.Size(135, 47);
-            this.flowLayoutPanel695.TabIndex = 84;
-            // 
-            // label79
-            // 
-            this.label79.Location = new System.Drawing.Point(3, 0);
-            this.label79.Name = "label79";
-            this.label79.Size = new System.Drawing.Size(130, 41);
-            this.label79.TabIndex = 84;
-            this.label79.Text = "小計";
-            this.label79.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // flowLayoutPanel696
-            // 
-            this.flowLayoutPanel696.Controls.Add(this.label80);
-            this.flowLayoutPanel696.Location = new System.Drawing.Point(4, 58);
-            this.flowLayoutPanel696.Name = "flowLayoutPanel696";
-            this.flowLayoutPanel696.Size = new System.Drawing.Size(135, 47);
-            this.flowLayoutPanel696.TabIndex = 84;
-            // 
-            // label80
-            // 
-            this.label80.Location = new System.Drawing.Point(3, 0);
-            this.label80.Name = "label80";
-            this.label80.Size = new System.Drawing.Size(130, 34);
-            this.label80.TabIndex = 84;
-            this.label80.Text = "消費税区分";
-            this.label80.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // flowLayoutPanel697
-            // 
-            this.flowLayoutPanel697.Controls.Add(this.label78);
-            this.flowLayoutPanel697.Location = new System.Drawing.Point(4, 112);
-            this.flowLayoutPanel697.Name = "flowLayoutPanel697";
-            this.flowLayoutPanel697.Size = new System.Drawing.Size(135, 47);
-            this.flowLayoutPanel697.TabIndex = 84;
-            // 
-            // label78
-            // 
-            this.label78.Location = new System.Drawing.Point(3, 0);
-            this.label78.Name = "label78";
-            this.label78.Size = new System.Drawing.Size(100, 23);
-            this.label78.TabIndex = 84;
-            this.label78.Text = "消費税率";
+            this.comboBox11.FormattingEnabled = true;
+            this.comboBox11.Items.AddRange(new object[] {
+            "税抜",
+            "税込"});
+            this.comboBox11.Location = new System.Drawing.Point(3, 3);
+            this.comboBox11.Name = "comboBox11";
+            this.comboBox11.Size = new System.Drawing.Size(132, 32);
+            this.comboBox11.TabIndex = 0;
             // 
             // Statement
             // 
@@ -17564,12 +17612,18 @@
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
             this.tableLayoutPanel14.ResumeLayout(false);
+            this.flowLayoutPanel697.ResumeLayout(false);
+            this.flowLayoutPanel696.ResumeLayout(false);
+            this.flowLayoutPanel695.ResumeLayout(false);
+            this.flowLayoutPanel694.ResumeLayout(false);
+            this.flowLayoutPanel694.PerformLayout();
+            this.flowLayoutPanel691.ResumeLayout(false);
+            this.flowLayoutPanel693.ResumeLayout(false);
+            this.flowLayoutPanel693.PerformLayout();
             this.flowLayoutPanel690.ResumeLayout(false);
             this.flowLayoutPanel690.PerformLayout();
             this.flowLayoutPanel692.ResumeLayout(false);
             this.flowLayoutPanel692.PerformLayout();
-            this.flowLayoutPanel693.ResumeLayout(false);
-            this.flowLayoutPanel693.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
             this.tableLayoutPanel13.ResumeLayout(false);
@@ -18147,13 +18201,8 @@
             this.flowLayoutPanel586.PerformLayout();
             this.flowLayoutPanel587.ResumeLayout(false);
             this.flowLayoutPanel587.PerformLayout();
-            this.flowLayoutPanel691.ResumeLayout(false);
-            this.flowLayoutPanel691.PerformLayout();
-            this.flowLayoutPanel694.ResumeLayout(false);
-            this.flowLayoutPanel694.PerformLayout();
-            this.flowLayoutPanel695.ResumeLayout(false);
-            this.flowLayoutPanel696.ResumeLayout(false);
-            this.flowLayoutPanel697.ResumeLayout(false);
+            this.flowLayoutPanel689.ResumeLayout(false);
+            this.flowLayoutPanel698.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -19683,7 +19732,11 @@
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel694;
         private System.Windows.Forms.TextBox textBox304;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel691;
-        private System.Windows.Forms.TextBox textBox303;
         private System.Windows.Forms.TextBox subTotal2;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel689;
+        private System.Windows.Forms.Label label93;
+        private System.Windows.Forms.ComboBox comboBox11;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel698;
+        private System.Windows.Forms.Label label94;
     }
 }
