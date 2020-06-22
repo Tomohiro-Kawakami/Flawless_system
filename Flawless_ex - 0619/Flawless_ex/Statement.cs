@@ -3515,9 +3515,17 @@ namespace Flawless_ex
             client_Search.Show();
         }
 
-        private void client_Button_Click(object sender, EventArgs e)
+        private void client_Button_Click(object sender, EventArgs e)//顧客選択メニュー（計算書）
         {
             Client_search client_Search = new Client_search(this);
+            this.Hide();
+            client_Search.Show();
+        }
+
+        private void client_searchButton1_Click(object sender, EventArgs e)//顧客選択メニュー（納品書）
+        {
+            Client_search client_Search = new Client_search(this);
+
             this.Hide();
             client_Search.Show();
         }

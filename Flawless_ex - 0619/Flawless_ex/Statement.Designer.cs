@@ -10230,6 +10230,7 @@
             this.client_searchButton1.TabIndex = 16;
             this.client_searchButton1.Text = "顧客選択";
             this.client_searchButton1.UseVisualStyleBackColor = true;
+            this.client_searchButton1.Click += new System.EventHandler(this.client_searchButton1_Click);
             // 
             // textBox370
             // 
